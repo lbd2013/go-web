@@ -1,7 +1,7 @@
 ## 拉取代码
 ```
 先生成 Personal access tokens
-然后用 git clone https://lbd2013:<Personal access tokens>@github.com/lbd2013/biance_deal 进行拉取
+然后用 git clone https://lbd2013:<Personal access tokens>@github.com/lbd2013/当前项目名 进行拉取
 ```
 
 ## 初始化
