@@ -1,0 +1,5 @@
+cd /root/goweb/
+/root/goweb/goweb auto_trade >> /root/goweb/run.log 2>&1
+echo "" >> /root/goweb/run.log
+echo "" >> /root/goweb/run.log
+echo "" >> /root/goweb/run.log
