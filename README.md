@@ -12,11 +12,6 @@ go run main.go -h
 创建表：
 go run main.go migrate up
 
-将k线数据拉取到本地：
-go run main.go seed SeedKlinesTable
-
-根据支撑线、压力线自动挂单：
-go run . auto_trade
 ```
 
 ## 启动方法
@@ -28,5 +23,6 @@ go run . auto_trade
 
 ## 链接
 ```
-http://127.0.0.1:3307/api/v1/kline/toujianv7?coinName=BTCUSDT&startTime=2022-05-10&interval=1h&goType=down&timeWin=10
+http://127.0.0.1:3000/web/index.html
+http://127.0.0.1:3000/api/v1/demo
 ```

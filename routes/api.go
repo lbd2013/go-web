@@ -95,5 +95,11 @@ func RegisterAPIRoutes(r *gin.Engine) {
 		{
 			lscGroup.GET("", lsc.Index)
 		}
+
+		demo := new(controllers.DemoController)
+		demoGroup := v1.Group("/demo")
+		{
+			demoGroup.GET("", demo.Index)
+		}
 	}
 }
