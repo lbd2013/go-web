@@ -8,7 +8,6 @@ import (
 	gowebConig "goweb/config"
 	"goweb/pkg/config"
 	"goweb/pkg/console"
-	"goweb/pkg/exchange"
 	"os"
 
 	"github.com/spf13/cobra"
@@ -44,7 +43,7 @@ func main() {
 
 			// 初始化缓存
 			bootstrap.SetupCache()
-			
+
 		},
 	}
 

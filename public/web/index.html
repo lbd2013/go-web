@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="js/jquery.min.js"></script>
 </head>
 <body>
 hello world
+<input name="aaa" id="aaa" type="text"/>
+<input type="button" onclick="aaa()">
+<script>
+    function aaa(){
+        alert($('#aaa').val());
+    }
+</script>
 </body>
 </html>
